@@ -6,9 +6,9 @@
     padding: 0%;
     margin: 0%;
 }
-h1,h2,h3,p{
-padding: 0%;
-margin: 0%;
+    h1,h2,h3,p{
+    padding: 0%;
+    margin: 0%;
 }
 a{
     text-decoration: none;
@@ -24,9 +24,9 @@ header{
     background-size: cover;
 }
 .container{
-max-width: 1280px;
-margin: 0 auto;
-padding: 0 10px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 .header-top{
    padding-top: 20px;
@@ -50,19 +50,19 @@ padding: 0 10px;
 }
 .header-info{
     background-color: #f8f200;
-padding: 70px;
-background: linear-gradient(135deg, transparent 52px, #f8f200 0) top left,
-linear-gradient(-45deg, transparent 52px, #f8f200 0) bottom right;
-background-size: 100% 50%;
-background-repeat: no-repeat;
+    padding: 70px;
+    background: linear-gradient(135deg, transparent 52px, #f8f200 0) top left,
+    linear-gradient(-45deg, transparent 52px, #f8f200 0) bottom right;
+    background-size: 100% 51%;
+    background-repeat: no-repeat;
 }
 .header-info>h1{
-color: #000;
-font-family: "Archangelsk";
-font-size: 62px;
-font-weight: 400;
-max-width: 484px;
-padding-bottom: 25px;
+    color: #000;
+    font-family: "Archangelsk";
+    font-size: 62px;
+    font-weight: 400;
+    max-width: 484px;
+    padding-bottom: 25px;
 }
 .header-info>button{
     color: #F8F200;   
@@ -73,5 +73,59 @@ padding-bottom: 25px;
     padding: 19px 50px;
     background: #000;
     cursor: pointer;
+}
+.title{
+    padding-top: 70px;
+    color: #000;
+    font-family: "Archangelsk";
+    font-size: 62px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.text{
+    color: #777;
+font-family: "Roboto";
+font-size: 18px;
+font-weight: 400;
+line-height: 188.9%;
+max-width: 952px;
+margin-bottom: 70px;
+}
+.text>span{
+    color: #52BEDC;
+    font-weight: 700;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 85px;
+}
+.item1{
+    width: 460px;
     
+}
+.photo1{
+ background: url('../img/photo1.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 196px;
+ margin-bottom: 32px;
+ clip-path: polygon(10% 0, 100% 0, 100% 0, 100% 80%, 90% 100%, 0 100%, 0 100%, 0 20%);
+}
+.photo1:last-child{
+    background: url('../img/photo2.png');
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item2{
+    width: 788px;
+    
+}
+.photo2{
+    background: url('../img/photo3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(7% 0, 100% 0, 100% 0, 100% 90%, 93% 100%, 0 100%, 0 100%, 0 10%);
+    height: 424px;
 }
