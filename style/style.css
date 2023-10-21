@@ -277,8 +277,9 @@ max-width: 488px;
     display: flex;
 
 }
-.dew>:first-child{
+.dew>a:first-child{
     margin-right: 32px;
+    color: #000;
 }
 .r{
     padding: 13px 0;
@@ -289,7 +290,8 @@ font-size: 12px;
 font-weight: 400;
 background-color: #000;
 display: flex;
-
 }
-
+.r>.container>a{
+  color: #FFF;  
+}
 
