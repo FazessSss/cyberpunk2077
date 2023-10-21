@@ -261,7 +261,7 @@ max-width: 488px;
 
 }
 .Cyberpunkdown{
-    padding-right: 32px;
+    margin-right: 32px;
 }
 .CD_Projekt{
     margin-right: 350px;
@@ -276,7 +276,7 @@ max-width: 488px;
 
 }
 .dew>:first-child{
-    padding-right: 32px;
+    margin-right: 32px;
 }
 .r{
     padding: 13px 0;
