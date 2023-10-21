@@ -47,6 +47,7 @@ header{
 .header-botton{
     display: flex;
     justify-content: flex-end;
+    bottom: 0;
 }
 .header-info{
     background-color: #f8f200;
@@ -187,6 +188,7 @@ font-family: 'Roboto';
 font-size: 18px;
 font-weight: 700;
 cursor: pointer;
+bottom: 0;
 }
 .buy{
     display: flex;
