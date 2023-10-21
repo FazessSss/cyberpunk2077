@@ -277,7 +277,7 @@ max-width: 488px;
     display: flex;
 
 }
-.dew:first-child{
+.dew>:first-child{
     margin-right: 32px;
 }
 .r{
