@@ -258,13 +258,13 @@ max-width: 488px;
    padding-top: 13px;
    padding-bottom: 13px;
    display: flex;
-   justify-content: center;
+
 }
 .Cyberpunkdown{
     padding-right: 32px;
 }
 .CD_Projekt{
-    padding-right: 391px;
+    margin-right: 350px;
 }
 .dew{
     padding-top: 27px;
@@ -273,6 +273,7 @@ max-width: 488px;
     font-size: 18px;
     font-weight: 400;
     display: flex;
+
 }
 .dew>:first-child{
     padding-right: 32px;
@@ -285,6 +286,8 @@ font-family: 'Roboto';
 font-size: 12px;
 font-weight: 400;
 background-color: #000;
+display: flex;
+
 }
 
 
