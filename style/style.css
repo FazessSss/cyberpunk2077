@@ -186,6 +186,7 @@ color: #F8F200;
 font-family: 'Roboto';
 font-size: 18px;
 font-weight: 700;
+cursor: pointer;
 }
 .buy{
     display: flex;
@@ -253,3 +254,37 @@ max-width: 488px;
     display: flex;
     align-items: center;
 }
+.logodiv{
+   padding-top: 13px;
+   padding-bottom: 13px;
+   display: flex;
+   justify-content: center;
+}
+.Cyberpunkdown{
+    padding-right: 32px;
+}
+.CD_Projekt{
+    padding-right: 391px;
+}
+.dew{
+    padding-top: 27px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+}
+.dew>:first-child{
+    padding-right: 32px;
+}
+.r{
+    padding: 13px 0;
+ color: #FFF;
+text-align: center;
+font-family: 'Roboto';
+font-size: 12px;
+font-weight: 400;
+background-color: #000;
+}
+
+
