@@ -339,6 +339,7 @@ display: flex;
             width: 952px;
             height: 424px;
             margin-right: 0;
+            
         }
         .photo1:first-child{
             width: 460px;
@@ -355,6 +356,7 @@ display: flex;
         width: 460px;
         margin-left: 32px;
         margin-right: 0;
+        clip-path: polygon(10% 0, 100% 0, 100% 0, 100% 80%, 90% 100%, 0 100%, 0 100%, 0 20%);
         }
         .yellowbox:first-child{
             padding-right: 32px; 
