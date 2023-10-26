@@ -243,14 +243,14 @@ max-width: 488px;
     display: flex;
 }
 .pc{
-    padding-right: 79px;
-    padding-bottom: 47.81px;
+        margin-right: 79px;
+        margin-bottom: 47.81px;
 }
 .xbox{
-    padding-bottom: 55.5px;
+        margin-bottom: 55.5px;
 }
 .stadia{
-    padding-right: 80px;
+        margin-right: 80px;
 }
 .logobrend2{
     display: flex;
