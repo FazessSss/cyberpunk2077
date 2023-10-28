@@ -328,7 +328,7 @@ display: flex;
         background: url("../img/1024bg.png");
         background-repeat: no-repeat;
         background-size: cover;
-
+    }
         .title{
             max-width: 620px;
         }
