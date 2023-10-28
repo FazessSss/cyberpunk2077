@@ -18,6 +18,9 @@ ul,ol{
     margin: 0%;
     list-style: none;
 }
+button{
+    border: 0;
+}
 header{
     background: url('../img/header-bg.png');
     background-repeat: no-repeat;
@@ -377,11 +380,4 @@ display: flex;
             flex-basis: 70%; 
         }
     }
-
-
-
-
-
-
-
-
+    
