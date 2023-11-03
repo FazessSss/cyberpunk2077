@@ -265,6 +265,9 @@ max-width: 488px;
    display: flex;
 
 }
+.logod{
+    display: flex;
+}
 .Cyberpunkdown{
     margin-right: 32px;
 }
@@ -400,11 +403,11 @@ display: flex;
             
         }
         .header-top{
-            flex-wrap: wrap;
-            padding-bottom: 0;
+            flex-direction: column;
+            align-items: center;
         }
         .social>li{
-            margin-right: 23px;
+            margin-right: 28px;
         }
         .social>li:last-child{
             margin-right: 0;
@@ -413,11 +416,6 @@ display: flex;
             padding: 20px 60px 10px 60px;
             width: 200px;
             height: 50px;
-        }
-        .social{
-            width: 25px;
-            height: 25px;
-            margin-bottom: 608px;
         }
         .header-info{
             align-items: center;
@@ -466,9 +464,6 @@ display: flex;
             width: 296px;
             height: 204px;
         }
-      .hp{
-        width: 43.852px;
-      }
       .x{
         width: 30px;
       }
@@ -480,8 +475,7 @@ display: flex;
       }
       .logo-company{
         margin: 0;
-        display: flex;
-        justify-content: space-between;
+        flex-direction: row;
       }
       .yellowbox2>h2{
         max-width: 320px;
@@ -499,11 +493,100 @@ display: flex;
             font-weight: 400;
             line-height: 200%;
         }
-
-
-
-
-
-
-
+        .logo-company>img:first-child{
+            width: 44px;
+        }
+        .logo-company>img:nth-child(2){
+            width: 50px;
+            margin: 0 13.7px;
+        }
+        .logo-company>img:last-child{
+            width: 175.407px;
+        }
+        .buy{
+            flex-direction: column;
+        }
+        .buybg{
+            flex-basis: auto;
+            height: 198px;
+        }
+        .buyinfo{
+            flex-basis: auto;
+            padding: 0;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+        .buyinfo>h2{
+            font-size: 30px;
+            max-width: 296px;
+            padding: 0;
+            padding-bottom: 25px;
+            padding-top: 40px;
+        }
+        .buyinfo>ul>li{
+            font-size: 16px;
+        }
+        .buyinfo>ul>li:last-child{
+            padding-bottom: 40px;
+        }
+        .pc{
+            margin-right: 56px;
+            margin-bottom: 40.81px;
+        }
+        .xbox{
+            margin-bottom: 48.81px;
+        }
+        .stadia{
+            margin-right: 70px;
+        }
+        .logobrend2{
+            margin-bottom: 70.73px;
+        }
+        .logodiv{
+            flex-direction: column;
+            padding: 0;
+        }
+        .logod>a:first-child>img{
+            width: 200px;
+        }
+        .logod>a:last-child>img{
+            width: 116.25px;
+        }
+        .logod{
+            display: flex;
+            flex-direction: column;
+            align-items: center;            
+            padding-top: 27px;
+        }
+        .CD_Projekt{
+            margin: 0;
+            padding: 0;
+            padding-bottom: 25px;
+        }
+        .dew{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        footer>.container{
+            padding: 0;
+            max-width: 100%;
+        }
+        .dew>a:first-child{
+            padding-bottom: 15px;
+        }
+        .dew::after{
+        position: absolute;
+        content: "";
+        background: #E6E6E6;
+        width: 100%;
+        height: 125px;
+        bottom: 0;
+        left: 0;
+        z-index: -1000;
+        top: 0;
+        }
     }
